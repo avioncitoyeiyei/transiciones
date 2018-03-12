@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Mina');
+
+*{
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background-color: #2d98da;
+	font-family: 'Mina', sans-serif;
+
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul>li{
+	display: inline-block;
+}
+ul>li>a{
+color: #fff;
+display: block;
+padding: 20px 82.3px 20px 82.3px;
+margin: 0 -5px;
+}
+.menu{
+	background-color: #987;
+}
+.menu ul li a:hover{
+background-color: #675;
+border-bottom:solid #fff;
+box-sizing: border-box;
+}
+.active{
+	background-color: #675;
+	border-bottom:solid #fff;
+	box-sizing: border-box;
+
+}
+article{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin: auto;
+	transition:3s;
+}
+
+article:hover{
+	width: 300px;
+	height: 300px;
+	background-color: green;
+
+}
+.segundo{
+	width: 200px;
+	height: 200px;
+	background-color: #589;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin: auto;
+	transition-duration: 1s;
+	transition-property: width,height,background-color,border;
+	transition-delay: 1s, 2s,2s,3s;
+
+
+}
+.segundo:hover{
+	width: 300px;
+	height: 300px;
+	background-color: green;
+	border: 10px solid yellow;
+
+}
+.tercero{
+	width: 200px;
+	height: 200px;
+	background-color: #589;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin: auto;
+	transition-duration: 1s;
+	transition-property: width,height,background-color;
+	transition-delay: 1s, 1s,2s,3s;
+}
+.tercero:hover{
+	width: 300px;
+	height: 300px;
+	background-color: green;
+}
+.tercero2{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin: auto;
+	transition-property: width,height,background-color,border-radius;
+	transition-delay: 3.5s, 3.5s,4.5s,5.5s;
+	transition-duration: 1s;
+}
+.tercero:hover .tercero2{
+	width: 150px;
+	height: 150px;
+	background-color: yellow;
+	border-radius: 50%;
+}
+.cuadro{
+	width: 200px;
+	height:200px;
+	background-color:red;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin: auto;
+	transition-property: width,height,background-color;
+	transition-delay: 1s, 2s,3s;
+	transition-duration: 1s;
+}
+.cuadro:hover{
+	width: 300px;
+	height: 300px;
+	background-color: green;
+
+}
+.cuadrito1{
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+}
+.cuadrito2{
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+	right: 0px;
+	bottom: 0px;
+	margin: 0;
+	position: absolute;
+	transition-property: width,height,background-color, border-radius;
+	transition-delay: 1s, 2s,3s;
+	transition-duration: 1s;
+}
+.cuadrito1:hover{
+	background-color: yellow;
+	margin: 0 0 0 10px;
+	border-radius: 50px;
+}
